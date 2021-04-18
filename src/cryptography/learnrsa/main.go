@@ -1,7 +1,7 @@
 package main
 
 import (
-	"myproject/cryptography/learnrsa/src"
+	"myproject/src/cryptography/learnrsa/src"
 	"myproject/public/fmt"
 )
 

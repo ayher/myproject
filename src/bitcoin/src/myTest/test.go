@@ -5,7 +5,7 @@ import (
 	"myproject/public/fmt"
 	"io/ioutil"
 	"myproject/public/msg"
-	"myproject/bitcoin/src"
+	"myproject/src/bitcoin/src"
 	"net/http"
 	"strconv"
 	"time"

@@ -964,3 +964,285 @@ Caused by: java.io.EOFException
 2021-04-10 17:09:06,665 [  58506]  ERROR - rains.concurrency.AsyncPromise - JDK: 11.0.9.1; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o. 
 2021-04-10 17:09:06,665 [  58506]  ERROR - rains.concurrency.AsyncPromise - OS: Mac OS X 
 2021-04-10 17:09:06,666 [  58507]  ERROR - rains.concurrency.AsyncPromise - Last Action: SaveAll 
+shutdown on Thread[AWT-EventQueue-0,6,Idea Thread Group]
+2021-04-10 17:13:52.236 goland[1527:10599] allVms required 1.8*,1.8+
+2021-04-10 17:13:52.237 goland[1527:10603] Current Directory: /Users/lx/ayher/learn/myproject
+2021-04-10 17:13:52.238 goland[1527:10603] Value of GOLAND_VM_OPTIONS is (null)
+2021-04-10 17:13:52.238 goland[1527:10603] Processing VMOptions file at /Users/lx/Library/Application Support/JetBrains/GoLand2020.3/goland.vmoptions
+2021-04-10 17:13:52.238 goland[1527:10603] Done
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+2021-04-10 17:13:54,647 [   1959]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-04-10 17:13:54,652 [   1964]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij] 
+2021-04-10 17:13:54,652 [   1964]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij] 
+2021-04-10 17:13:54,652 [   1964]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-04-10 17:13:54,658 [   1970]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: com.intellij] 
+2021-04-10 17:13:54,658 [   1970]   WARN - nSystem.impl.ActionManagerImpl - keymap "Xcode" not found [Plugin: com.intellij] 
+2021-04-10 17:13:54,689 [   2001]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: HtmlTools] 
+2021-04-10 17:13:54,889 [   2201]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-10 17:13:54,889 [   2201]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-10 17:13:54,889 [   2201]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-10 17:13:54,905 [   2217]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: JavaScript] 
+2021-04-10 17:13:54,905 [   2217]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: JavaScript] 
+2021-04-10 17:13:55,003 [   2315]   WARN - il.indexing.FileBasedIndexImpl - PersistentEnumerator storage corrupted /Users/lx/Library/Caches/JetBrains/GoLand2020.3/index/.persistent/todoindex/values 
+com.intellij.util.io.PersistentEnumeratorBase$CorruptedException: PersistentEnumerator storage corrupted /Users/lx/Library/Caches/JetBrains/GoLand2020.3/index/.persistent/todoindex/values
+	at com.intellij.util.io.PersistentEnumeratorBase.<init>(PersistentEnumeratorBase.java:228)
+	at com.intellij.util.io.PersistentBTreeEnumerator.<init>(PersistentBTreeEnumerator.java:73)
+	at com.intellij.util.io.PersistentEnumeratorDelegate.createDefaultEnumerator(PersistentEnumeratorDelegate.java:69)
+	at com.intellij.util.io.PersistentHashMap.<init>(PersistentHashMap.java:164)
+	at com.intellij.util.io.PersistentHashMap.<init>(PersistentHashMap.java:149)
+	at com.intellij.util.io.PersistentHashMap.<init>(PersistentHashMap.java:140)
+	at com.intellij.util.io.PersistentHashMap.<init>(PersistentHashMap.java:132)
+	at com.intellij.util.io.PersistentHashMap.<init>(PersistentHashMap.java:125)
+	at com.intellij.util.indexing.impl.forward.PersistentMapBasedForwardIndex.createMap(PersistentMapBasedForwardIndex.java:77)
+	at com.intellij.util.indexing.impl.forward.PersistentMapBasedForwardIndex.<init>(PersistentMapBasedForwardIndex.java:28)
+	at com.intellij.util.indexing.impl.forward.PersistentMapBasedForwardIndex.<init>(PersistentMapBasedForwardIndex.java:24)
+	at com.intellij.util.indexing.snapshot.SnapshotInputMappings.createContentsIndex(SnapshotInputMappings.java:259)
+	at com.intellij.util.indexing.snapshot.SnapshotInputMappings.<init>(SnapshotInputMappings.java:69)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.<init>(VfsAwareMapReduceIndex.java:77)
+	at com.intellij.util.indexing.FileBasedIndexImpl.createIndex(FileBasedIndexImpl.java:501)
+	at com.intellij.util.indexing.FileBasedIndexImpl.initIndexStorage(FileBasedIndexImpl.java:433)
+	at com.intellij.util.indexing.FileBasedIndexImpl.registerIndexer(FileBasedIndexImpl.java:398)
+	at com.intellij.util.indexing.FileBasedIndexDataInitialization.lambda$initAssociatedDataForExtensions$0(FileBasedIndexDataInitialization.java:65)
+	at com.intellij.util.indexing.IndexInfrastructure$DataInitialization.executeNestedInitializationTask(IndexInfrastructure.java:174)
+	at com.intellij.util.indexing.IndexInfrastructure$DataInitialization.runParallelNestedInitializationTasks(IndexInfrastructure.java:162)
+	at com.intellij.util.indexing.IndexInfrastructure$DataInitialization.call(IndexInfrastructure.java:123)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:216)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:27)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.execute(BoundedTaskExecutor.java:195)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:208)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:184)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-04-10 17:13:55,039 [   2351]   WARN - il.indexing.FileBasedIndexImpl - PersistentEnumerator storage corrupted /Users/lx/Library/Caches/JetBrains/GoLand2020.3/index/.persistent/idindex/values 
+com.intellij.util.io.PersistentEnumeratorBase$CorruptedException: PersistentEnumerator storage corrupted /Users/lx/Library/Caches/JetBrains/GoLand2020.3/index/.persistent/idindex/values
+	at com.intellij.util.io.PersistentEnumeratorBase.<init>(PersistentEnumeratorBase.java:228)
+	at com.intellij.util.io.PersistentBTreeEnumerator.<init>(PersistentBTreeEnumerator.java:73)
+	at com.intellij.util.io.PersistentEnumeratorDelegate.createDefaultEnumerator(PersistentEnumeratorDelegate.java:69)
+	at com.intellij.util.io.PersistentHashMap.<init>(PersistentHashMap.java:164)
+	at com.intellij.util.io.PersistentHashMap.<init>(PersistentHashMap.java:149)
+	at com.intellij.util.io.PersistentHashMap.<init>(PersistentHashMap.java:140)
+	at com.intellij.util.io.PersistentHashMap.<init>(PersistentHashMap.java:132)
+	at com.intellij.util.io.PersistentHashMap.<init>(PersistentHashMap.java:125)
+	at com.intellij.util.indexing.impl.forward.PersistentMapBasedForwardIndex.createMap(PersistentMapBasedForwardIndex.java:77)
+	at com.intellij.util.indexing.impl.forward.PersistentMapBasedForwardIndex.<init>(PersistentMapBasedForwardIndex.java:28)
+	at com.intellij.util.indexing.impl.forward.PersistentMapBasedForwardIndex.<init>(PersistentMapBasedForwardIndex.java:24)
+	at com.intellij.util.indexing.snapshot.SnapshotInputMappings.createContentsIndex(SnapshotInputMappings.java:259)
+	at com.intellij.util.indexing.snapshot.SnapshotInputMappings.<init>(SnapshotInputMappings.java:69)
+	at com.intellij.util.indexing.impl.storage.VfsAwareMapReduceIndex.<init>(VfsAwareMapReduceIndex.java:77)
+	at com.intellij.util.indexing.FileBasedIndexImpl.createIndex(FileBasedIndexImpl.java:501)
+	at com.intellij.util.indexing.FileBasedIndexImpl.initIndexStorage(FileBasedIndexImpl.java:433)
+	at com.intellij.util.indexing.FileBasedIndexImpl.registerIndexer(FileBasedIndexImpl.java:398)
+	at com.intellij.util.indexing.FileBasedIndexDataInitialization.lambda$initAssociatedDataForExtensions$0(FileBasedIndexDataInitialization.java:65)
+	at com.intellij.util.indexing.IndexInfrastructure$DataInitialization.executeNestedInitializationTask(IndexInfrastructure.java:174)
+	at com.intellij.util.indexing.IndexInfrastructure$DataInitialization.runParallelNestedInitializationTasks(IndexInfrastructure.java:162)
+	at com.intellij.util.indexing.IndexInfrastructure$DataInitialization.call(IndexInfrastructure.java:123)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:216)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:27)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.execute(BoundedTaskExecutor.java:195)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:208)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:184)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:668)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:665)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:665)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+regular expression has ']' without escape
+2021-04-10 19:20:19.311 goland[2048:32676] allVms required 1.8*,1.8+
+2021-04-10 19:20:19.312 goland[2048:32684] Current Directory: /Users/lx/ayher/learn/myproject
+2021-04-10 19:20:19.313 goland[2048:32684] Value of GOLAND_VM_OPTIONS is (null)
+2021-04-10 19:20:19.313 goland[2048:32684] Processing VMOptions file at /Users/lx/Library/Application Support/JetBrains/GoLand2020.3/goland.vmoptions
+2021-04-10 19:20:19.313 goland[2048:32684] Done
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Already running
+regular expression has ']' without escape
+2021-04-10 19:28:25.982 goland[2209:36223] allVms required 1.8*,1.8+
+2021-04-10 19:28:25.984 goland[2209:36234] Current Directory: /Users/lx/ayher/learn/myproject
+2021-04-10 19:28:25.985 goland[2209:36234] Value of GOLAND_VM_OPTIONS is (null)
+2021-04-10 19:28:25.985 goland[2209:36234] Processing VMOptions file at /Users/lx/Library/Application Support/JetBrains/GoLand2020.3/goland.vmoptions
+2021-04-10 19:28:25.985 goland[2209:36234] Done
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Already running
+2021-04-10 19:29:06,295 [8113607]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: STX 
+2021-04-10 19:29:06,318 [8113630]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: STX 
+2021-04-10 19:29:06,318 [8113630]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SOH 
+2021-04-10 19:29:06,318 [8113630]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: STX 
+2021-04-10 19:29:06,319 [8113631]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: DC4 
+2021-04-10 19:29:06,319 [8113631]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SYN 
+2021-04-10 19:29:06,319 [8113631]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: GS 
+2021-04-10 19:29:06,319 [8113631]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: CAN 
+2021-04-10 19:29:06,319 [8113631]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: DC3 
+2021-04-10 19:29:06,319 [8113631]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: FS 
+2021-04-10 19:29:06,319 [8113631]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: DC1 
+2021-04-10 19:29:06,319 [8113631]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: DC1 
+2021-04-10 19:29:06,320 [8113632]  ERROR - terminal.emulator.JediEmulator - Unsupported control characters: Terminal status:ESC   
+2021-04-10 19:29:06,320 [8113632]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: NAK 
+2021-04-10 19:29:06,320 [8113632]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: DLE 
+2021-04-10 19:29:06,320 [8113632]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: RS 
+2021-04-10 19:29:06,320 [8113632]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: ACK 
+2021-04-10 19:29:06,320 [8113632]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: DC1 
+2021-04-10 19:29:06,320 [8113632]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: STX 
+2021-04-10 19:29:06,320 [8113632]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: ETX 
+2021-04-10 19:29:06,320 [8113632]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SOH 
+2021-04-10 19:29:06,320 [8113632]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SOH 
+2021-04-10 19:29:06,320 [8113632]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: STX 
+2021-04-10 19:29:06,326 [8113638]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: US 
+2021-04-10 19:29:06,326 [8113638]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SUB 
+2021-04-10 19:29:06,326 [8113638]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: DLE 
+2021-04-10 19:29:06,326 [8113638]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: EOT 
+2021-04-10 19:29:06,326 [8113638]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SYN 
+2021-04-10 19:29:06,326 [8113638]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: FS 
+2021-04-10 19:29:06,327 [8113639]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: ETB 
+2021-04-10 19:29:06,327 [8113639]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: STX 
+2021-04-10 19:29:06,327 [8113639]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: DC3 
+2021-04-10 19:29:06,327 [8113639]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: NAK 
+2021-04-10 19:29:06,327 [8113639]  ERROR - terminal.emulator.JediEmulator - Unsupported control characters: Terminal status:ESC   
+2021-04-10 19:29:06,327 [8113639]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: EM 
+2021-04-10 19:29:06,328 [8113640]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: STX 
+2021-04-10 19:29:06,328 [8113640]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: EM 
+2021-04-10 19:29:06,328 [8113640]  ERROR - terminal.emulator.JediEmulator - Unsupported control characters: Terminal status:ESC   
+2021-04-10 19:29:06,328 [8113640]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: GS 
+2021-04-10 19:29:06,328 [8113640]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: EM 
+2021-04-10 19:29:06,328 [8113640]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: FS 
+2021-04-10 19:29:06,329 [8113641]  ERROR - terminal.emulator.JediEmulator - Unsupported control characters: Terminal status:ESC   
+2021-04-10 19:29:06,329 [8113641]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: STX 
+2021-04-10 19:29:06,329 [8113641]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: FS 
+2021-04-10 19:29:06,329 [8113641]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: ETB 
+2021-04-10 19:29:06,329 [8113641]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: GS 
+2021-04-10 19:29:06,329 [8113641]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: ETX 
+2021-04-10 19:29:06,329 [8113641]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: ETX 
+2021-04-10 19:29:06,330 [8113642]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: DC3 
+2021-04-10 19:29:06,330 [8113642]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: STX 
+2021-04-10 19:29:06,330 [8113642]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: RS 
+2021-04-10 19:29:06,330 [8113642]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SUB 
+2021-04-10 19:29:06,330 [8113642]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: DC1 
+2021-04-10 19:29:06,330 [8113642]  ERROR - terminal.emulator.JediEmulator - Unsupported control characters: ESC  � 
+2021-04-10 19:29:06,331 [8113643]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SOH 
+2021-04-10 19:29:06,331 [8113643]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: DC3 
+2021-04-10 19:29:06,331 [8113643]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: STX 
+2021-04-10 19:29:06,333 [8113645]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: RS 
+2021-04-10 19:29:06,333 [8113645]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: DC1 
+2021-04-10 19:29:06,333 [8113645]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: EM 
+2021-04-10 19:29:06,333 [8113645]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: DC2 
+2021-04-10 19:29:06,333 [8113645]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: ACK 
+2021-04-10 19:29:06,333 [8113645]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SOH 
+regular expression has ']' without escape
+2021-04-10 20:10:03,371 [10570683]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: ACK 
+2021-04-10 20:10:03,372 [10570684]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SOH 
+2021-04-10 20:10:03,372 [10570684]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SOH 
+2021-04-10 20:10:03,372 [10570684]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SOH 
+2021-04-10 20:10:03,372 [10570684]  ERROR - terminal.emulator.JediEmulator - Unsupported control characters: Terminal status:ESC   
+2021-04-10 20:10:03,373 [10570685]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: ETX 
+2021-04-10 20:10:03,373 [10570685]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: STX 
+2021-04-10 20:10:03,373 [10570685]  ERROR - terminal.emulator.JediEmulator - Unsupported control characters: Terminal status:ESC   
+2021-04-10 20:10:03,373 [10570685]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: STX 
+2021-04-10 20:10:03,373 [10570685]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: ETX 
+2021-04-10 20:10:03,373 [10570685]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SOH 
+2021-04-10 20:10:03,373 [10570685]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SOH 
+2021-04-10 20:10:59,451 [10626763]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: ACK 
+2021-04-10 20:10:59,451 [10626763]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SOH 
+2021-04-10 20:10:59,451 [10626763]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SOH 
+2021-04-10 20:10:59,451 [10626763]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SOH 
+2021-04-10 20:10:59,451 [10626763]  ERROR - terminal.emulator.JediEmulator - Unsupported control characters: Terminal status:ESC   
+2021-04-10 20:10:59,451 [10626763]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: ETX 
+2021-04-10 20:10:59,451 [10626763]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: STX 
+2021-04-10 20:10:59,451 [10626763]  ERROR - terminal.emulator.JediEmulator - Unsupported control characters: Terminal status:ESC   
+2021-04-10 20:10:59,451 [10626763]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: STX 
+2021-04-10 20:10:59,451 [10626763]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: ETX 
+2021-04-10 20:10:59,451 [10626763]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SOH 
+2021-04-10 20:10:59,451 [10626763]  ERROR - terminal.emulator.JediEmulator - Unhandled control character: SOH 
+shutdown on Thread[AWT-EventQueue-0,6,Idea Thread Group]
+2021-04-16 13:50:34.388 goland[6312:92243] allVms required 1.8*,1.8+
+2021-04-16 13:50:34.391 goland[6312:92253] Current Directory: /Users/lx/ayher/learn/myproject
+2021-04-16 13:50:34.391 goland[6312:92253] Value of GOLAND_VM_OPTIONS is (null)
+2021-04-16 13:50:34.391 goland[6312:92253] Processing VMOptions file at /Users/lx/Library/Application Support/JetBrains/GoLand2020.3/goland.vmoptions
+2021-04-16 13:50:34.392 goland[6312:92253] Done
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Already running
+2021-04-18 16:55:51.137 goland[695:8864] allVms required 1.8*,1.8+
+2021-04-18 16:55:51.163 goland[695:8890] Current Directory: /Users/lx/ayher/learn/myproject
+2021-04-18 16:55:51.164 goland[695:8890] Value of GOLAND_VM_OPTIONS is (null)
+2021-04-18 16:55:51.165 goland[695:8890] Processing VMOptions file at /Users/lx/Library/Application Support/JetBrains/GoLand2020.3/goland.vmoptions
+2021-04-18 16:55:51.165 goland[695:8890] Done
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+2021-04-18 16:55:54,135 [   2218]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-04-18 16:55:54,149 [   2232]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij] 
+2021-04-18 16:55:54,149 [   2232]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij] 
+2021-04-18 16:55:54,149 [   2232]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-04-18 16:55:54,154 [   2237]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: com.intellij] 
+2021-04-18 16:55:54,154 [   2237]   WARN - nSystem.impl.ActionManagerImpl - keymap "Xcode" not found [Plugin: com.intellij] 
+2021-04-18 16:55:54,182 [   2265]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: HtmlTools] 
+2021-04-18 16:55:54,482 [   2565]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-18 16:55:54,482 [   2565]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-18 16:55:54,483 [   2566]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-18 16:55:54,505 [   2588]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: JavaScript] 
+2021-04-18 16:55:54,505 [   2588]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: JavaScript] 
+2021-04-18 17:07:05.868 goland[908:13739] allVms required 1.8*,1.8+
+2021-04-18 17:07:05.870 goland[908:13746] Current Directory: /Users/lx/ayher/learn/myproject
+2021-04-18 17:07:05.870 goland[908:13746] Value of GOLAND_VM_OPTIONS is (null)
+2021-04-18 17:07:05.870 goland[908:13746] Processing VMOptions file at /Users/lx/Library/Application Support/JetBrains/GoLand2020.3/goland.vmoptions
+2021-04-18 17:07:05.870 goland[908:13746] Done
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+2021-04-18 17:07:08,416 [   2093]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-04-18 17:07:08,420 [   2097]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij] 
+2021-04-18 17:07:08,420 [   2097]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij] 
+2021-04-18 17:07:08,420 [   2097]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-04-18 17:07:08,425 [   2102]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: com.intellij] 
+2021-04-18 17:07:08,426 [   2103]   WARN - nSystem.impl.ActionManagerImpl - keymap "Xcode" not found [Plugin: com.intellij] 
+2021-04-18 17:07:08,456 [   2133]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: HtmlTools] 
+2021-04-18 17:07:08,686 [   2363]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-18 17:07:08,686 [   2363]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-18 17:07:08,686 [   2363]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-18 17:07:08,699 [   2376]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: JavaScript] 
+2021-04-18 17:07:08,699 [   2376]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: JavaScript] 
+2021-04-18 17:23:30,179 [ 983856]   WARN - openapi.util.io.FileSystemUtil - CFURLCopyResourcePropertyForKey(/Users/lx/ayher/learn/myproject/markdraw/gas 的关系): error 
+2021-04-18 23:04:49.227 goland[611:5802] allVms required 1.8*,1.8+
+2021-04-18 23:04:49.253 goland[611:5827] Current Directory: /Users/lx/ayher/learn/myproject
+2021-04-18 23:04:49.254 goland[611:5827] Value of GOLAND_VM_OPTIONS is (null)
+2021-04-18 23:04:49.255 goland[611:5827] Processing VMOptions file at /Users/lx/Library/Application Support/JetBrains/GoLand2020.3/goland.vmoptions
+2021-04-18 23:04:49.255 goland[611:5827] Done
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+2021-04-18 23:04:52,080 [   2028]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-04-18 23:04:52,086 [   2034]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij] 
+2021-04-18 23:04:52,086 [   2034]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij] 
+2021-04-18 23:04:52,087 [   2035]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-04-18 23:04:52,096 [   2044]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: com.intellij] 
+2021-04-18 23:04:52,097 [   2045]   WARN - nSystem.impl.ActionManagerImpl - keymap "Xcode" not found [Plugin: com.intellij] 
+2021-04-18 23:04:52,133 [   2081]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: HtmlTools] 
+2021-04-18 23:04:52,324 [   2272]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-18 23:04:52,324 [   2272]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-18 23:04:52,324 [   2272]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-18 23:04:52,349 [   2297]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: JavaScript] 
+2021-04-18 23:04:52,349 [   2297]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: JavaScript] 
+2021-04-18 23:04:56,510 [   6458]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:04:57,237 [   7185]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:04:58,217 [   8165]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:05:00,029 [   9977]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:05:00,103 [  10051]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:05:02,137 [  12085]   WARN - arketplace.MarketplaceRequests - Error reading Marketplace file: url=https://plugins.zhile.io?build=GO-203.6682.164 file=null. File content:
+null 
+2021-04-18 23:05:02,139 [  12087]   WARN - arketplace.MarketplaceRequests - Can not get features from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:05:02,246 [  12194]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:05:02,249 [  12197]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:05:03,199 [  13147]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:05:03,257 [  13205]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:05:03,942 [  13890]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:05:04,056 [  14004]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:05:08,600 [  18548]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:05:08,820 [  18768]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:05:23,190 [  33138]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:08:33,227 [ 223175]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:08:33,227 [ 223175]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:08:33,227 [ 223175]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:08:33,227 [ 223175]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:08:33,227 [ 223175]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:08:33,229 [ 223177]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+2021-04-18 23:08:33,230 [ 223178]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 

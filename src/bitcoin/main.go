@@ -1,6 +1,6 @@
 package main
 
-import "myproject/bitcoin/src/myTest"
+import "myproject/src/bitcoin/src/myTest"
 
 func main()  {
 
