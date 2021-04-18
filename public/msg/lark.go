@@ -1,4 +1,4 @@
-package public
+package msg
 
 import (
 	"fmt"

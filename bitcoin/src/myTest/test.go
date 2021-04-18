@@ -2,9 +2,9 @@ package myTest
 
 import (
 	"encoding/json"
-	"fmt"
+	"myproject/public/fmt"
 	"io/ioutil"
-	"myproject/bitcoin/public"
+	"myproject/public/msg"
 	"myproject/bitcoin/src"
 	"net/http"
 	"strconv"
@@ -57,7 +57,7 @@ func Test()  {
 
 		if b{
 			fmt.Println("-----",v,b)
-			fmt.Println(public.SendLarkNotify("a5383493-cbd9-4a56-a797-45f0390a1c75","momey",address))
+			fmt.Println(msg.SendLarkNotify("a5383493-cbd9-4a56-a797-45f0390a1c75","momey",address))
 		}
 		if v==-1{
 			fmt.Println("qie huan")
@@ -65,7 +65,7 @@ func Test()  {
 			b,v=runFun(f%4,address)
 			if b{
 				fmt.Println("-----",v,b)
-				fmt.Println(public.SendLarkNotify("a5383493-cbd9-4a56-a797-45f0390a1c75","momey",address))
+				fmt.Println(msg.SendLarkNotify("a5383493-cbd9-4a56-a797-45f0390a1c75","momey",address))
 			}
 		}
 	}
