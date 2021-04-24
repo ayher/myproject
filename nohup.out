@@ -1246,3 +1246,54 @@ null
 2021-04-18 23:08:33,227 [ 223175]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
 2021-04-18 23:08:33,229 [ 223177]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
 2021-04-18 23:08:33,230 [ 223178]   WARN - arketplace.MarketplaceRequests - Can not get JetBrains plugins' IDs from Marketplace:plugins.jetbrains.com 
+shutdown on Thread[AWT-EventQueue-0,6,Idea Thread Group]
+2021-04-20 13:50:10.888 goland[2417:82047] allVms required 1.8*,1.8+
+2021-04-20 13:50:10.890 goland[2417:82056] Current Directory: /Users/lx/ayher/learn/myproject
+2021-04-20 13:50:10.891 goland[2417:82056] Value of GOLAND_VM_OPTIONS is (null)
+2021-04-20 13:50:10.891 goland[2417:82056] Processing VMOptions file at /Users/lx/Library/Application Support/JetBrains/GoLand2020.3/goland.vmoptions
+2021-04-20 13:50:10.891 goland[2417:82056] Done
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Already running
+2021-04-20 20:25:25.952 goland[8298:212341] allVms required 1.8*,1.8+
+2021-04-20 20:25:25.954 goland[8298:212351] Current Directory: /Users/lx/ayher/learn/myproject
+2021-04-20 20:25:25.954 goland[8298:212351] Value of GOLAND_VM_OPTIONS is (null)
+2021-04-20 20:25:25.954 goland[8298:212351] Processing VMOptions file at /Users/lx/Library/Application Support/JetBrains/GoLand2020.3/goland.vmoptions
+2021-04-20 20:25:25.955 goland[8298:212351] Done
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Already running
+2021-04-20 20:33:54.836 goland[8649:216062] allVms required 1.8*,1.8+
+2021-04-20 20:33:54.838 goland[8649:216070] Current Directory: /Users/lx/ayher/learn/myproject
+2021-04-20 20:33:54.838 goland[8649:216070] Value of GOLAND_VM_OPTIONS is (null)
+2021-04-20 20:33:54.838 goland[8649:216070] Processing VMOptions file at /Users/lx/Library/Application Support/JetBrains/GoLand2020.3/goland.vmoptions
+2021-04-20 20:33:54.838 goland[8649:216070] Done
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Already running
+2021-04-24 12:31:19.304 goland[14400:254079] allVms required 1.8*,1.8+
+2021-04-24 12:31:19.307 goland[14400:254091] Current Directory: /Users/lx/ayher/learn/myproject
+2021-04-24 12:31:19.307 goland[14400:254091] Value of GOLAND_VM_OPTIONS is (null)
+2021-04-24 12:31:19.308 goland[14400:254091] Processing VMOptions file at /Users/lx/Library/Application Support/JetBrains/GoLand2020.3/goland.vmoptions
+2021-04-24 12:31:19.308 goland[14400:254091] Done
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+Already running
+2021-04-24 21:55:33.793 goland[735:10252] allVms required 1.8*,1.8+
+2021-04-24 21:55:33.841 goland[735:10278] Current Directory: /Users/lx/ayher/learn/myproject
+2021-04-24 21:55:33.842 goland[735:10278] Value of GOLAND_VM_OPTIONS is (null)
+2021-04-24 21:55:33.842 goland[735:10278] Processing VMOptions file at /Users/lx/Library/Application Support/JetBrains/GoLand2020.3/goland.vmoptions
+2021-04-24 21:55:33.843 goland[735:10278] Done
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+2021-04-24 21:55:39,800 [   4688]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-04-24 21:55:39,813 [   4701]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij] 
+2021-04-24 21:55:39,814 [   4702]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij] 
+2021-04-24 21:55:39,814 [   4702]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-04-24 21:55:39,831 [   4719]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: com.intellij] 
+2021-04-24 21:55:39,832 [   4720]   WARN - nSystem.impl.ActionManagerImpl - keymap "Xcode" not found [Plugin: com.intellij] 
+2021-04-24 21:55:39,899 [   4787]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: HtmlTools] 
+2021-04-24 21:55:40,489 [   5377]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-24 21:55:40,490 [   5378]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-24 21:55:40,490 [   5378]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-24 21:55:40,552 [   5440]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: JavaScript] 
+2021-04-24 21:55:40,552 [   5440]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: JavaScript] 
+2021-04-25 00:25:28,100 [8992988]   WARN - tor.IncrementalBlameCalculator - Blame failed:
+no such path markdown/encryptionFil/src/saveAndRead.go in f83d75d2abaa5c6275c96d59a634af1f5fc8f293 
+2021-04-25 00:43:06,369 [10051257]   WARN - tor.IncrementalBlameCalculator - Blame failed:
+no such path markdown/gas 的关系/README.md in f2478a397f4e0ac2ed19cc53abe00e8b8e9a4f2a 

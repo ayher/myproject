@@ -1,7 +1,0 @@
-2021-04-09 17:53:05.774 goland[6449:107841] allVms required 1.8*,1.8+
-2021-04-09 17:53:05.776 goland[6449:107848] Current Directory: /Users/lx/ayher/learn/cryptography/keySaveInFile
-2021-04-09 17:53:05.776 goland[6449:107848] Value of GOLAND_VM_OPTIONS is (null)
-2021-04-09 17:53:05.776 goland[6449:107848] Processing VMOptions file at /Users/lx/Library/Application Support/JetBrains/GoLand2020.3/goland.vmoptions
-2021-04-09 17:53:05.776 goland[6449:107848] Done
-OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
-Already running
