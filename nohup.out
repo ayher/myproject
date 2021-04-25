@@ -1297,3 +1297,31 @@ OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in ve
 no such path markdown/encryptionFil/src/saveAndRead.go in f83d75d2abaa5c6275c96d59a634af1f5fc8f293 
 2021-04-25 00:43:06,369 [10051257]   WARN - tor.IncrementalBlameCalculator - Blame failed:
 no such path markdown/gas 的关系/README.md in f2478a397f4e0ac2ed19cc53abe00e8b8e9a4f2a 
+shutdown on Thread[AWT-EventQueue-0,6,Idea Thread Group]
+2021-04-25 13:05:45.069 goland[4124:62300] allVms required 1.8*,1.8+
+2021-04-25 13:05:45.071 goland[4124:62307] Current Directory: /Users/lx/ayher/learn/myproject
+2021-04-25 13:05:45.072 goland[4124:62307] Value of GOLAND_VM_OPTIONS is (null)
+2021-04-25 13:05:45.072 goland[4124:62307] Processing VMOptions file at /Users/lx/Library/Application Support/JetBrains/GoLand2020.3/goland.vmoptions
+2021-04-25 13:05:45.072 goland[4124:62307] Done
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+
+Too Many Instances
+Only one instance of GoLand can be run at a time.
+2021-04-25 13:06:55.200 goland[4246:63952] allVms required 1.8*,1.8+
+2021-04-25 13:06:55.202 goland[4246:63961] Current Directory: /Users/lx/ayher/learn/myproject
+2021-04-25 13:06:55.202 goland[4246:63961] Value of GOLAND_VM_OPTIONS is (null)
+2021-04-25 13:06:55.203 goland[4246:63961] Processing VMOptions file at /Users/lx/Library/Application Support/JetBrains/GoLand2020.3/goland.vmoptions
+2021-04-25 13:06:55.203 goland[4246:63961] Done
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+2021-04-25 13:06:57,774 [   2085]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-04-25 13:06:57,779 [   2090]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij] 
+2021-04-25 13:06:57,779 [   2090]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij] 
+2021-04-25 13:06:57,779 [   2090]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-04-25 13:06:57,786 [   2097]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: com.intellij] 
+2021-04-25 13:06:57,787 [   2098]   WARN - nSystem.impl.ActionManagerImpl - keymap "Xcode" not found [Plugin: com.intellij] 
+2021-04-25 13:06:57,812 [   2123]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: HtmlTools] 
+2021-04-25 13:06:58,008 [   2319]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-25 13:06:58,008 [   2319]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-25 13:06:58,008 [   2319]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse (Mac OS X)" not found [Plugin: org.jetbrains.plugins.github] 
+2021-04-25 13:06:58,031 [   2342]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: JavaScript] 
+2021-04-25 13:06:58,031 [   2342]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: JavaScript] 
