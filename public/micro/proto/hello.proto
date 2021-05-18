@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option go_package ="/proto";
+
+service Hello {
+  rpc NewAddress(NewAddressRequest) returns (NewAddressResponse) {}
+  rpc GetBrowser(GetBrowserRequest) returns (GetBrowserResponse) {}
+}
+
+message NewAddressRequest {
+}
+
+message NewAddressResponse {
+  string privateket = 1;
+  string publicKey = 2;
+  string address = 3;
+}
+
+message GetBrowserRequest {
+  string t = 1;
+}
+
+message GetBrowserResponse {
+  string BrowserUrl = 1;
+}

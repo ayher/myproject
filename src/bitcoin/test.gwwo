@@ -18,6 +18,12 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 )
 
+//[main.main:11] 44f36f6976c0bef3d5f5a786963c34bf533078a22d8c2ebe0eb4a0f873697fa7
+//[main.main:12] 0450675d509bdd28be713e707e0cc751955bcca5cda277e3d60492add10be8124ab439d779cfc080a74420d60c4a65af5f7d54b96f04aba89f628a3303c12416d7
+//[main.main:13] 169SBaXBRnGGZeRvjvVUW6zjmCcDaz5doL
+
+
+
 type BtcConfig struct {
 	dbObj                 orm.Ormer
 	HotAddress            string                // btc热钱包地址
@@ -49,7 +55,7 @@ type CoinParam struct {
 	ExtTrxTx       string // 通用存储data
 }
 
-type BtcData struct { // 这个结构体要和仕学那边程序保持一致
+type BtcData struct {
 	RedeemTx *wire.MsgTx
 	UTXOs    []btcjson.ListUnspentResult
 }
@@ -280,4 +286,8 @@ func (self *Btc) Sign(summary, secret string) (string, error) {
 
 func AddressToPublicKey (dbObj orm.Ormer, address string) (string, error){
 	return "",nil
+}
+
+func main()  {
+	btc:=NewBtc()
 }

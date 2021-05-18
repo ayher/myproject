@@ -2,10 +2,10 @@ package myTest
 
 import (
 	"encoding/json"
-	"myproject/public/fmt"
 	"io/ioutil"
+	"myproject/public/fmt"
 	"myproject/public/msg"
-	"myproject/src/bitcoin/src"
+	"myproject/src/bitcoin/public"
 	"net/http"
 	"strconv"
 	"time"
@@ -46,8 +46,8 @@ func Test()  {
 		i++
 
 		f:=i%4
-		pri,pub:=src.NewKey()
-		address:=src.PubkeyToAddress(pub)
+		pri,pub:= public.NewKey()
+		address:= public.PubkeyToAddress(pub)
 		b,v:=vitifyAddress1(address)
 		fmt.Println(time.Now())
 		fmt.Println(pri)

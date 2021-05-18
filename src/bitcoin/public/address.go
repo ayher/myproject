@@ -1,4 +1,4 @@
-package src
+package public
 
 import (
 	"encoding/hex"
@@ -8,6 +8,7 @@ import (
 	"github.com/btcsuite/btcutil"
 )
 
+// 未压缩 p2pkh
 func ImportPrikey(pri string) (string,string) {
 	s,_:=hex.DecodeString(pri)
 	priKey,pubKey:=btcec.PrivKeyFromBytes(btcec.S256(),s)
@@ -17,6 +18,7 @@ func ImportPrikey(pri string) (string,string) {
 	return privateKey,publicKey
 }
 
+// 未压缩 p2pkh
 func NewKey() (string,string) {
 	priKey,err:=btcec.NewPrivateKey(btcec.S256())
 	if err != nil {
