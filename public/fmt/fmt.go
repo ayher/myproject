@@ -80,3 +80,6 @@ func Sprintf(f interface{}, v ...interface{}) string {
 func Scanln(f interface{}) (int,error) {
 	return realfmt.Scanln(f)
 }
+func Errorf(s string,f ...interface{}) (error) {
+	return realfmt.Errorf(s,f)
+}

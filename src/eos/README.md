@@ -16,8 +16,8 @@ karlmarxbest
 Public Key: EOS7mR7jwMgc68Bf1azYhG9qxkNxWifVN1aMkCMsYVzH33xa9mYWi
 Private key: 5JJkAHR6CBPbJsvKbZbx8VRdrhaVCoGZcsHrpjfWWdGh5fwqd7J
 
-Public Key: EOS6XsuncnNJGB6J9fJxZSwJQP2hsWcjcEg2imybkSK5WVUVCeuFs
-Private key: 5JETSXKfw8bX9FbXhczqwuRKffveSQsiBtxkcNNTMLTPdUZbGwd
+-- Public Key: EOS6XsuncnNJGB6J9fJxZSwJQP2hsWcjcEg2imybkSK5WVUVCeuFs
+-- Private key: 5JETSXKfw8bX9FbXhczqwuRKffveSQsiBtxkcNNTMLTPdUZbGwd
 
 executed transaction: a191086854a4a923c07bd9cbf340d7ae7e6cf6bcd56fc48ea55918f78c7d58f8 336 bytes 480 us warn 2021-05-16T01:59:41.597 cleos main.cpp:506 print_result ] warning: transaction executed locally, but may not be confirmed by the network yet
 

@@ -44,29 +44,33 @@ type UTXO struct {
 
 func main()  {
 	var err error
-	b,_:=hex.DecodeString("8353c1e67ba0dc3061dd1220a5ebbc5ad8cbc5fdb2c7f4d428696ab0a9ea2176")
+	b,_:=hex.DecodeString("41932a6271f15818af221ab9f6ad79949f3e742e070eb8fa278e83858bd1bde7")
 	pri,fromPublicKey:=btcec.PrivKeyFromBytes(btcec.S256(),b)
+
 
 
 	// 网络
 	//netParams := chaincfg.MainNetParams
-	netParams := chaincfg.TestNet3Params
-	fmt.Println("Net", "net", netParams.Name)
+	netParams:=chaincfg.Params{}
+
+	netParams.PrivateKeyID=33
+	netParams.PubKeyHashAddrID=55
+	netParams.ScriptHashAddrID=80
 
 	//fmt.Println("fromPublicKey", "X", fromPublicKey.X)
 	//fmt.Println("fromPublicKey", "Y", fromPublicKey.Y)
-	//fmt.Println("fromPublicKey", "Hex", fmt.Sprintf("%x", fromPublicKey.SerializeUncompressed()))
+	//fmt.Println("fromPublicKey", "Hex", fmt.Sprintf("%x", fromPublicKey.SerializeCompressed()))
 
 
 	// to地址
-	destination := "mqMtko6gJd8d64qMvciYNEtBVuqpNgt8EQ"
+	destination := "PNDyeKXLSsfgD182soXoHas4rBJC5TZuAs"
 	var amount int64
 	amount=123120
 
 
 	// 由公钥xy生成AddressPubKey对象
 	var fromAddressPubKey *btcutil.AddressPubKey
-	fromAddressPubKey, err = btcutil.NewAddressPubKey(fromPublicKey.SerializeUncompressed(), &netParams)
+	fromAddressPubKey, err = btcutil.NewAddressPubKey(fromPublicKey.SerializeCompressed(), &netParams)
 	if err != nil {
 		fmt.Println("btcutil.NewAddressPubKey", "err", err)
 	}
@@ -139,6 +143,7 @@ func main()  {
 	fee := int64(math.Ceil(float64(int64(size) * feeRate)/1000))
 	fmt.Println("EstimateFee", "fee", fee)
 
+	fmt.Println("balance < amount+fee",balance , amount,fee)
 	// 检查余额
 	if balance < amount+fee {
 		fmt.Println("balance check", "err", "the balance of the account is not sufficient")
@@ -226,7 +231,7 @@ func main()  {
 		if compress {
 			pkData = fromPublicKey.SerializeCompressed()
 		} else {
-			pkData = fromPublicKey.SerializeUncompressed()
+			pkData = fromPublicKey.SerializeCompressed()
 		}
 
 		rawTxInSignature := append(signature.Serialize(), byte(signHashType))
@@ -241,7 +246,9 @@ func main()  {
 
 	}
 	fmt.Println(redeemTx)
-
+	fmt.Println("hash",redeemTx.TxIn[0].PreviousOutPoint.Hash.String())
+	bb,_:=json.Marshal(redeemTx)
+	fmt.Println("ppppppppp",string(bb))
 	// 总raw输出
 	var signedTx bytes.Buffer
 	err = redeemTx.Serialize(&signedTx)
@@ -300,7 +307,15 @@ func EstimateFee() (int64, error) {
 
 // 根据api返回地址多个UTXO
 func GetUTXOs(address string) ([]*UTXO, error) {
-
+	return []*UTXO{
+		{
+			TxId:"12639765559e7e5154e4f7eaaab14a823d59d1d4f5e14c8c392e5378530a3bc7",
+			Index:1,
+			Value:545999000,
+			PkScript:"76a9146eef1c01044cf0aef8557438f5391d9f7b4e928388ac",
+			Spend:false,
+		},
+	},nil
 	// https://api.blockcypher.com/v1/btc/test3/addrs/n4TBTn6xNDjNvqoWoaaJWi33dY4sMQ2DqV??unspentOnly=true&includeScript=true&limit=50
 
 	newURL := fmt.Sprintf("https://api.blockcypher.com/v1/btc/test3/addrs/%s??unspentOnly=true&includeScript=true&limit=50", address)
