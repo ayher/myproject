@@ -45,14 +45,15 @@ func t(){
 	fmt.Debug(hex.EncodeToString(data))
 }
 
+// 1000000000000000000
 func main()  {
-	t()
-	return
+	//t()
+	//return
 	pu,_:=account.GetAddressFromPublic("048202dfb46c8acc01c8701badb76b9ca4e213e87df63b5191024427756b290c7d90c80ff8e2e165d9b67b441236b9f3a7fc73ca7750cf5e90872010a0dc29f9b3")
 	transfer(&C{
 		"906f0f8aba745f8b88323dbf5f51c1d9275a5227411854e7bda1f90927f945b8",
 		pu,
-		"0xDDeB239fe839047AD7c1FB310e30dda3D0c765F3",
+		"0x561b4859c0E8e0c3212445556564A9A48B6E514c",
 		"100000000000000000",
 		"1200000000",
 		"",
@@ -124,6 +125,9 @@ func transfer(c *C) error{
 	var data []byte
 
 	if c.Contract == "" {
+		for i:=0;i<13000;i++{
+			data=append(data,byte(1))
+		}
 		fmt.Debug("ETH Transfer")
 	} else {
 		fmt.Debug("ERC20 Transfer")
@@ -137,7 +141,7 @@ func transfer(c *C) error{
 		fmt.Debug("paddedAddress", "paddedAddress", paddedAddress)
 
 		paddedAmount := common.LeftPadBytes(value.Bytes(), 32)
-		value.SetInt64(0) //ERC20转账，这个value要设置成0
+		value.SetUint64(10000000000000000000) //ERC20转账，这个value要设置成0
 		fmt.Debug("paddedAmount", "paddedAmount", paddedAmount)
 
 		data = append(data, methodID...)
@@ -158,8 +162,9 @@ func transfer(c *C) error{
 		fmt.Debug("EstimateGas error, set as default gas limit", "error", err)
 		gasLimit = defaultGasLimit
 	} else {
-		fmt.Debug("EstimateGas success")
+		fmt.Debug("EstimateGas success",gasLimit)
 	}
+	gasLimit=uint64(210000)
 	fmt.Debug("gasLimit", "gasLimit", gasLimit)
 
 	gasPrice, err := client.SuggestGasPrice(context.Background())
@@ -170,7 +175,7 @@ func transfer(c *C) error{
 		fmt.Debug("SuggestGasPrice success")
 	}
 	fmt.Debug("gasPrice", "gasPrice", gasPrice)
-
+	//gasPrice=new(big.Int).Mul(gasPrice,new(big.Int).SetInt64(2))
 	// 组装tx
 	tx := types.NewTransaction(nonce, toAddress, value, gasLimit, gasPrice, data)
 
